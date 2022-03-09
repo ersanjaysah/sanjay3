@@ -2,11 +2,18 @@
 
 namespace Employ
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Program.MyMethod();
+        }
+        static void MyMethod()
+        {
+            Console.WriteLine("this is my good practice");
         }
     }
+    
+
 }
